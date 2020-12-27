@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        })
+    </script>
 </head>
 
 <body>
@@ -52,7 +57,7 @@
                             <img src="./img/logo.png" class="img-fluid" alt="">
                         </div>
                         <div class="col-6 d-flex  align-items-center">
-                            <a href="#reserve" class="btn btn-warning text-center" role="button">Reserve Table</a>
+                            <a href="#reserve" class="btn btn-warning text-center" data-toggle="tooltip" data-html="true" title="Or call us at <br><strong>+493 4893 8594</strong></br>" role="button" data-placement="bottom">Reserve Table</a>
                         </div>
                     </div>
                 </div>
